@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    color: #222;
+}
+
+body {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    margin: 10vh auto;
+    font-size: 30px;
+}
+
+.container {
+    min-height: 80vh;
+}
+
+h2 {
+    padding: 20px 5px;
+   
+}
+
+#buttons {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+
+}
+
+#button-rock,
+#button-paper,
+#button-scissors {
+    margin: 0 auto;
+    width: 50vw;
+    border: 3px solid black;
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 50px;
+    background-color: lightskyblue;
+    color: white;
+    text-shadow: 4px 4px black;
+}
+
+#button-rock:hover,
+#button-paper:hover,
+#button-scissors:hover {
+    background-color: blue;
+}
+
+#messages {
+    margin-top: 10vh;
+}
